@@ -1,2 +1,2 @@
 # SoniaSpindt.github.io
-Example website for SMASH Digital Portfolio assessment.
+My personal website is coming soon! :)
