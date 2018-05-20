@@ -1,2 +1,2 @@
 # SoniaSpindt.github.io
-My personal website is coming soon! :)
+A variety of website examples at different stages of their development. If you are looking for my personal website, please visit SoniaSpindt.github.io/SoniaSpindt.html
