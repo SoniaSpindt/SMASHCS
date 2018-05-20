@@ -1,2 +1,2 @@
 # SoniaSpindt.github.io
-A variety of website examples at different stages of their development. If you are looking for my personal website, please visit SoniaSpindt.github.io/index.html
+A repository of all the websites I use for my lessons (including their state at different points of the development process!). If you are looking for my personal website, please visit SoniaSpindt.github.io/index.html
