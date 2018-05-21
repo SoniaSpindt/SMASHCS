@@ -1,16 +1,10 @@
 body, html{
     background: linear-gradient(240deg, rgb(237, 243, 249), white);
 }
-.top{
+p{
     color: rgb(50, 50, 51);
 }
 
 a{
     color: rgb(124, 124, 127);
-}
-#title{
-    color: rgb(11, 22, 40);
-}
-#subtitle{
-    color:rgb(47, 60, 81);
 }
