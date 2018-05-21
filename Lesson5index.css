@@ -4,6 +4,7 @@ body, html{
 p{
     color: rgb(50, 50, 51);
 }
-nav{
+nav, a{
     color: rgb(124, 124, 127);
+    text-decoration: none;
 }
