@@ -1,0 +1,112 @@
+/*Smartphones*/
+@media only screen and (max-width: 600px){
+    html, body{
+        width: 100%;
+        margin: 0px;
+        background-color: white;
+        font-size: 30px;
+        font-family: 'Ribeye Marrow', sans-serif;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    } 
+    p{
+        margin-top: 10%;
+        text-align: center;
+    }
+    nav, a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 0.6rem;
+    }
+    #button1{
+        margin-top: 25%;
+    }
+    #button2{
+        margin-bottom: 25%;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    #joinUs{
+        box-sizing: border-box;
+        text-align: right;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 2%;
+        padding-right: 3.5%;
+        width: 50%;
+    }
+    #socialNav{
+        float: left;
+        width: 100%;
+    }
+    div{
+        display: block;
+        float: left;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .fa {
+        /*font-size: 30px;*/
+        padding: 0;
+        width: 25px;
+        text-align: left;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .fa-facebook {
+        /*font-size: 10px;*/
+        padding-left: 3.5%;
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+    .fa-twitter {
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+    .fa-instagram {
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+    .fa-pinterest {
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: greenyellow;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    body{
+        background-color: pink;
+    }
+}
+
+/*Desktops*/
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: firebrick;
+    }
+}
