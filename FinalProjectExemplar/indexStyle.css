@@ -29,10 +29,21 @@
         font-size: 0.6rem;
     }
     #button1{
-        margin-top: 0%;
+        width:25%;
     }
     #button2{
-        margin-bottom: 25%;
+        width: 30%;
+    }
+    
+    #button1, #button2{
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: solid 10px transparent;
+        border-left: solid 10px transparent; 
+        border-right: solid 10px transparent; 
+        border-bottom: solid 10px #fff;
+        box-shadow: 5px 10px 20px #DCDCDC;
     }
     footer{
         position: absolute;
