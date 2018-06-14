@@ -7,6 +7,10 @@
         font-size: 30px;
         font-family: 'Ribeye Marrow', sans-serif;
     }
+    #title{
+        width: 100%;
+        text-align: center;
+    }
     img{
         height: auto; 
         display: block;
@@ -16,12 +20,6 @@
         width: 50%;
         margin-bottom: 10%;
     } 
-    #title{
-        position: absolute;
-        top: 0;
-        width: 100%;
-        text-align: center;
-    }
     nav, a{
         display: block;
         text-align: center;
@@ -47,9 +45,8 @@
         box-shadow: 5px 10px 20px #DCDCDC;
     }
     footer{
-        position: absolute;
-        bottom: 0;
         width: 100%;
+        margin-top: 10%;
     }
     #joinUs{
         box-sizing: border-box;
