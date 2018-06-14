@@ -1,30 +1,126 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>FluTats®</title>
-        <link rel = "stylesheet" href = "indexStyle.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ribeye+Marrow" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <p id="title">FluTats</p>
-        <img src = "mobileHome.png">
-        <nav>
-            <a id = "button1" href = "background.html">Our Story</a><br>
-            <a id = "button2" href = "prototype.html">The Solution</a>
-        </nav>
-        <footer>
-            <nav id = "socialNav">
-                <p id = "joinUs">JOIN US ON</p>
-                <div>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-pinterest"></a>
-                </div>
-            </nav>
-        </footer>
-    </body>
-</html>
+/*Smartphones*/
+@media only screen and (max-width: 600px){
+    html, body{
+        width: 100%;
+        margin: 0px;
+        background-color: white;
+        font-size: 30px;
+        font-family: 'Ribeye Marrow', sans-serif;
+    }
+    #title{
+        width: 100%;
+        text-align: center;
+        text-shadow: 3px 3px 3px #DCDCDC;
+    }
+    img{
+        height: auto; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        width: 50%;
+        margin-bottom: 10%;
+    } 
+    nav, a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 0.6rem;
+    }
+    #button1{
+        width: 25%;
+    }
+    #button2{
+        width: 30%;
+    }
+    
+    #button1, #button2{
+        background-color: white;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: solid 10px transparent;
+        border-left: solid 10px transparent; 
+        border-right: solid 10px transparent; 
+        border-bottom: solid 10px white;
+        box-shadow: 5px 10px 20px #DCDCDC;
+        border-radius: 5px;
+    }
+    footer{
+        width: 100%;
+        margin-top: 10%;
+    }
+    #joinUs{
+        box-sizing: border-box;
+        text-align: right;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 2%;
+        padding-right: 3.5%;
+        width: 50%;
+    }
+    #socialNav{
+        float: left;
+        width: 100%;
+    }
+    div{
+        display: block;
+        float: left;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .fa {
+        /*font-size: 30px;*/
+        padding: 0;
+        width: 25px;
+        text-align: left;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .fa-facebook {
+        /*font-size: 10px;*/
+        padding-left: 3.5%;
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+    .fa-twitter {
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+    .fa-instagram {
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+    .fa-pinterest {
+        float: left;
+        background: white;
+        color: #4dd4f2;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: greenyellow;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    body{
+        background-color: pink;
+    }
+}
+
+/*Desktops*/
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: firebrick;
+    }
+}
