@@ -25,8 +25,9 @@
         margin: 0;
         padding-left: 5%;
         padding-top: 5%;
-        padding-bottom: 50%;
+        padding-bottom: 70%;
         width: 100%;
+        text-shadow: 3px 3px 3px #DCDCDC;
     }
     #hook{
         padding-left: 5%;
