@@ -1,0 +1,48 @@
+/*Smartphones*/
+@media only screen and (max-width: 600px){
+    html, body{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    div{
+        width: 100%;
+        float: left;
+    }
+    #container{
+        position: absolute;
+        top: 0;
+        color: black;
+        width: 100%;
+        opacity: 1;
+    }
+    #title{
+        box-sizing: border-box;
+        font-family: 'Ribeye Marrow', sans-serif;
+        font-size: 35px;
+        margin: 0;
+        padding-left: 5%;
+        padding-top: 5%;
+        width: 100%;
+    }
+    #hook{
+        padding-left: 5%;
+        font-size: 25px;
+        margin: 0;
+        position: absolute;
+        top: 400px;
+    }
+    img{
+        opacity: 0.3;
+    }
+    #call{
+        width: center;
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+        line-height: 1.5em;
+        padding: 5%;
+    }
+}
