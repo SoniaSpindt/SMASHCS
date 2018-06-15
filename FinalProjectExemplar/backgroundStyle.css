@@ -25,14 +25,13 @@
         margin: 0;
         padding-left: 5%;
         padding-top: 5%;
+        padding-bottom: 60%;
         width: 100%;
     }
     #hook{
         padding-left: 5%;
         font-size: 25px;
         margin: 0;
-        position: absolute;
-        top: 350px;
     }
     img{
         opacity: 0.3;
