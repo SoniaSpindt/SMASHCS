@@ -1,0 +1,56 @@
+html, body{
+    margin: 0;
+    background-color: #F8BC91;
+    font-size: 30px;
+    line-height:1.6em;
+    font-weight: 300;
+    color: #263333;
+    text-transform: uppercase;
+}
+button{
+    box-sizing: border-box;
+    text-align: center;
+    text-shadow: -3px 3px #F8BC91;
+    color: #413F40;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #FDE3A6;
+    letter-spacing: 3px;
+}
+#fluid{
+    background-color: #FDE3A6;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#studentName{
+    box-sizing: border-box;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: #413F40;
+    font-family: 'Varela Round', sans-serif;
+    background-color:#FDE3A6;
+    text-shadow: -3px 3px #F8BC91;
+    letter-spacing: 3px;
+    height: 100%;
+}
+/*
+#ScholarHints{
+    bottom: 0;
+    box-sizing: border-box;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: #413F40;
+    font-family: 'Varela Round', sans-serif;
+    background-color:#FDE3A6;
+    text-shadow: -3px 3px #F8BC91;
+    letter-spacing: 3px;
+    height: 100%;
+}*/
