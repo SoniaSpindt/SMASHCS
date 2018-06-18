@@ -7,10 +7,10 @@ function newName(){
     let randomNum = Math.floor(Math.random()*(section1.length));
     document.getElementById('studentName').innerHTML = section1[randomNum];
 }
-
+/*
 //Student needs some guidance?
 let listOhints = ["How do you think the discussion went?", "What did you learn from the discussion?", "What would have made the discussion better for you?"];
 function hints(){
     let randomNum = Math.floor(Math.random()*(listOhints.length));
     document.getElementById('ScholarHints').innerHTML = listOhints[randomNum]; 
-}
+}*/
