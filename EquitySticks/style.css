@@ -17,6 +17,7 @@ button{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 20%;
     font-family: 'Varela Round', sans-serif;
     background-color: #FDE3A6;
     letter-spacing: 3px;
@@ -31,6 +32,7 @@ button{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10%;
     text-align: center;
     color: #413F40;
     font-family: 'Varela Round', sans-serif;
