@@ -4,6 +4,6 @@ let section2 = ["Claudia", "Teja", "Karen", "Zae'lasia", "Elizabeth", "Itzel", "
 
 //Generate random number
 function newName(){
-    let randomNum = Math.floor(Math.random()*(section2.length));
-    document.getElementById('studentName').innerHTML = section2[randomNum];
+    let randomNum = Math.floor(Math.random()*(section1.length));
+    document.getElementById('studentName').innerHTML = section1[randomNum];
 }
